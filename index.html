@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>AirT - Buy Nigerian Mobile Network Airtime</title>
+  </head>
+  <body>
+    <nav>
+      <img src="AirTlogo.png" alt="AirT logo" id="logo">
+      <div id="nav-links">
+        <a href="#">Home</a>
+        <a href="#contact-us">Contact</a>
+        <a href="#about-us">About</a>
+      </div>
+    </nav>
+    <h1>Welcome to AirT</h1>
+    <p>Buy Nigerian mobile network airtime (MTN, GLO, Airtel, and 9mobile) with us and stand a chance to win big!</p>
+    <ul id="telecom-list">
+  <li>MTN</li>
+  <li>GLO</li>
+  <li>Airtel</li>
+  <li>9mobile</li>
+</ul>
+<p id="win">Buy Airtime To Win:</p>
+    <div id="options">
+      <a href="https://paystack.com/pay/AirT-for-airtime-to-win-airtime">Airtime</a>
+      <a href="https://paystack.com/pay/AirT-for-airtime-to-win-cash">Cash</a>
+      
+    </div>
+    <p>If we hit a total sales of 384,500:</p>
+    <ul id="condition">
+      <li>100 customers will win 10,000 naira each in the "Buy Airtime to Win Airtime" option</li>
+      <li>First place will win 500,000 naira, second place 300,000 naira, and third place 200,000 naira in the "Buy Airtime to Win Cash" option</li>
+    </ul>
+    <div id="about-us">
+    <h2>About Us</h2>
+    <p>AirT is a Nigerian based company that offers the convenience of buying mobile network airtime (MTN, GLO, Airtel, and 9mobile) online with a chance to win big. Our platform is easy to use and offers a secure and reliable way to purchase airtime. We aim to provide exceptional customer service and make the process of buying airtime as seamless as possible. </p>
+    </div>
+    <div id="contact-us">
+    <h2>Contact Us</h2>
+    <p>For any inquiries or assistance, please WhatsApp chat our customer support line at +234 704 8594 183. We are available to assist you anytime.</p>
+    </div>
+    <footer>
+      <p>Copyright © AirT. All rights reserved.</p>
+    </footer>
+    <script>
+  var list = document.getElementById("telecom-list");
+  var index = 0;
+  
+  setInterval(function() {
+    list.children[index].style.display = "none";
+    index = (index + 1) % list.children.length;
+    list.children[index].style.display = "block";
+  }, 3000);
+</script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  max-width: 960px; /* set the maximum width of the body to 960px */
+  margin: 0 auto; /* center the content on the page */
+}
+nav {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; /* remove background color */
+  color: transparent; /* remove text color */
+  padding: 10px 20px;
+}
+#logo {
+    height: 100px;
+  width: 100px; /* increase width of logo */
+  margin-right: auto;
+}
+#nav-links {
+  display: flex;
+  padding: auto;
+  font-weight: bold;
+}
+#nav-links a {
+  color: #13a313;
+  text-decoration: none;
+  margin-right: 20px;
+}
+#nav-links a, #options a {
+  width: 100%; /* set the width of the links to 100% */
+  display: block; /* display the links as block elements */
+  text-align: center; /* center the text of the links */
+}
+h1 {
+  text-align: center;
+  margin-top: 75px;
+  font-size: 60px; /* increase font size of H1 */
+}
+
+#telecom-list li {
+    font-size: 40px;
+    color: black;
+   font-weight: bold;
+   color: #13a313;;
+}
+#telecom-list {
+    text-align: center;
+    list-style-type: none;
+}
+#win{
+  text-align: center;
+  margin-top: 100px;
+}
+#options {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  padding: 0px 100px;
+  margin: auto;
+}
+#options a {
+  background-color: #13a313;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+#about-us {
+  background-color: #d8e8d8;
+  padding: 20px;
+  margin-top: 50px;
+}
+#about-us h2 {
+  margin-top: 0;
+}
+#contact-us {
+  background-color: #d8e8d8;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#contact-us h2 {
+  margin-top: 0;
+}
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+  text-align: center;
+}
